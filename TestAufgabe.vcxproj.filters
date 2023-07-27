@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3775d358-e53e-4d86-9ef6-62a389b0ef9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{6bfe1811-64da-4d82-a469-200f7c7d26d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="window.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="app_math.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="drawing.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="app_math.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestAufgabe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\glew32s_x64.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\glew32s_x86.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
