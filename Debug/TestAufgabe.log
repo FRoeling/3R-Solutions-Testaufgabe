@@ -1,0 +1,4 @@
+﻿  drawing.c
+C:\Users\felix\Desktop\3R-Solutions-Testaufgabe\drawing.c(50,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\felix\Desktop\3R-Solutions-Testaufgabe\drawing.c(147,35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  TestAufgabe.vcxproj -> C:\Users\felix\Desktop\3R-Solutions-Testaufgabe\Debug\TestAufgabe.exe
